@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>convert currency</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="form">
+     <form>
+          <h1>KB COMPANY</h1>
+          <p>Currancy Exachange Platform</p>
+          <div class="btn">
+           <select  id="from" oninput="convert()" onchange="convert()">
+               <option value="">From</option>
+               <option value="frw">FRW</option>
+               <option value="usd">USD</option>
+               <option value="fbu">FBU</option>
+          </select>
+          <select id="to" oninput="convert()" onchange="convert()">
+               <option value="">To</option>
+               <option value="frw">FRW</option>
+               <option value="usd">USD</option>
+               <option value="fbu">FBU</option>
+          </select></div><br>
+           <input type="number" id="amount" placeholder="Amount" oninput="convert()" onchange="convert()"><br>
+          <div class="btn">
+          <button type="button" onclick="convertr()">Convert</button>
+          <button type="button" onclick="convertre()">AC</button></div><br>
+          <div id="result">Result</div>
+     </form>
+</div>
+     <script src="convert.js">
+     </script>
+</body>
+</html>

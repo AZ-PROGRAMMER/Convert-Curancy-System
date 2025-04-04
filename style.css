@@ -1,0 +1,72 @@
+*{
+     border: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background: rgba(9, 9, 143, 0.788);
+
+}
+form{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     flex-direction: column;
+     position: relative;
+     top: 150px;
+     width: 30%;
+     margin: auto;
+     background: rgba(255, 255, 255, 0.548);
+     padding: 15px;
+     border: 12px solid white;
+     border-radius: 15px;
+}
+.btn{
+     display: flex;
+     justify-content: center;
+     justify-content: space-between;
+}
+button{
+     width: 49%;
+     padding: 12px ;
+     background: rgba(9, 9, 143, 0.493);
+     font-size: larger;
+     color: white;
+}
+select{
+     width: 49%;
+     background: rgba(9, 9, 143, 0.493);
+     color: rgba(255, 255, 255, 0.699);
+     font-weight: bolder;
+}
+option{
+     border-radius: none;
+}
+#result{
+     background-color: aliceblue;
+     text-align: right;
+     padding: 6px;
+     height: 31px;
+     width: auto;
+     font-weight: bold;
+}
+#result{
+     color: rgba(59, 59, 59, 0.658);
+}
+input{
+     outline: 0;
+     padding: 12px;
+     
+}
+select{
+     outline: 0;
+     padding: 12px;
+}
+h1,p{
+     text-align: center;
+     padding-bottom: 10px;
+}
+h1{
+     color: rgba(9, 9, 143, 0.493);
+     font-weight: bolder;
+}
